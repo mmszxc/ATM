@@ -2,7 +2,7 @@ import os
 import re
 import shutil
 
-target = 'C:\\三江\\作业\\'
+target = 'C:\\\作业\\'
 for first_dirname, send_dirname, file_name in os.walk(r'C:\三江\1-30'):
 
     for line in file_name:
